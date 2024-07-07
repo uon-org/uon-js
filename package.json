@@ -1,0 +1,24 @@
+{
+    "name": "uon",
+    "version": "1.0.0",
+    "files": [
+        "lib/"
+    ],
+    "exports": {
+        "./*": "./lib/*.mjs",
+        "./package.json": "./package.json"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "description": "",
+    "dependencies": {
+        "eventemitter2": "^6.4.9",
+        "json5": "^2.2.3",
+        "object-inspect": "^1.13.2",
+        "stream-pair": "^1.0.3",
+        "ws": "^8.17.0"
+    }
+}
